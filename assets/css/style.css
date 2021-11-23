@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 /*-------------------- MAIN HEADING AND BODY -----------------*/
 
 .main-heading {
@@ -10,6 +12,19 @@
 
 body{
  background-color: #e40b0b;
+}
+
+/*-------------------- CONTAINERS -------------------*/
+
+.container{
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ max-width: 80rem;
+ margin: 0 auto;
+ padding: 2rem;
 }
 
 /*-------------------- DIVIDERS --------------*/
@@ -26,3 +41,26 @@ body{
  border-bottom-right-radius: 10px;
 }
 
+/*-------------------- BUTTONS ---------------*/
+
+#play-btn{
+    font-family: 'Bangers';
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+#highscores-btn{
+    font-family: 'Bangers';
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+/*--------------------- MEDIA QUERIES ------------------*/
+
+@media screen and (max-width:320px) {
+    .social-links i{
+    width: 100%;
+    vertical-align: center;
+    }
