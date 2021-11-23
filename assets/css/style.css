@@ -57,10 +57,18 @@ body{
     padding: 1rem;
 }
 
+/*--------------------- ICONS ---------------------*/
+
+i {
+    border: 6px;
+    padding: 6px;
+}
+
 /*--------------------- MEDIA QUERIES ------------------*/
 
-@media screen and (max-width:320px) {
+/*@media screen and (max-width:320px) {
     .social-links i{
     width: 100%;
     vertical-align: center;
     }
+*/
