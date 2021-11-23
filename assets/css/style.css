@@ -1,0 +1,10 @@
+.main-heading {
+ font-family:'Bangers';
+ font-size: 4.5rem;;
+ color: #cccccc;
+ text-shadow: 2px 2px #273e47;
+}
+
+body{
+ background-color: #e40b0b;
+}
