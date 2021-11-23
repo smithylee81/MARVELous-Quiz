@@ -43,6 +43,14 @@ body{
 
 /*-------------------- BUTTONS ---------------*/
 
+.btn{
+    font-family: 'Bangers';
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+/*
 #play-btn{
     font-family: 'Bangers';
     font-size: 1.5rem;
@@ -56,12 +64,24 @@ body{
     text-align: center;
     padding: 1rem;
 }
+*/
+
+/*--------------------- SAVE BUTTON ---------------------*/
+/*
+.btn[diabled]:hover {
+    cursor: not-allowed;
+    box-shadow: transform 150ms;
+    transform: none;
+}
+*/
+
 
 /*--------------------- ICONS ---------------------*/
 
 i {
     border: 6px;
     padding: 6px;
+    
 }
 
 /*--------------------- MEDIA QUERIES ------------------*/

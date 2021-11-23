@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+body {
+    background-color: #e40b0b;
+   }
+
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: #273e47;
+    font-size: 3rem;
+    min-width: 80rem;
+
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem #273e47;
+    transform: scale(1.02);
+}
