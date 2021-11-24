@@ -80,6 +80,21 @@ body {
     width: 0%;
 }
 
+/* Image containers (25% for four) */
+.column {
+    float: left;
+    width: 24%;
+    padding: 2px;
+    margin: auto;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 
 /*---------------------------------- MEDIA QUERIES ----------------------*/
 @media screen and (max-width: 768px){
