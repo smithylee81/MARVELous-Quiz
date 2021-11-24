@@ -17,8 +17,8 @@ body {
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
-    width: 80%;
-    border-radius: 2px;
+    width: 100%;
+    border-radius: 4px;
     background: #cccccc;
     font-size: 3rem;
     min-width: 80rem;
