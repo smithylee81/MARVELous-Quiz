@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+body {
+    background-color: #e40b0b;
+   }
+
+
+#finalScore {
+    font-family:'Bangers';
+    font-size: 5rem;;
+    color: #cccccc;
+    text-shadow: 4px 4px #273e47;
+    text-align: center;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 0.5em;
+    left: 0;
+    width: 100%;
+    margin: 0;
+   }

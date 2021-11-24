@@ -14,6 +14,13 @@ body{
  background-color: #e40b0b;
 }
 
+.header{
+ font-family:'Bangers';
+ font-size: 1.5rem;;
+ color: #cccccc;
+ text-shadow: 4px 4px #273e47;
+}
+
 /*-------------------- CONTAINERS -------------------*/
 
 .container{
