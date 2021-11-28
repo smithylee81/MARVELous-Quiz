@@ -40,6 +40,10 @@ body {
     width: 100%;
 }
 
+.container-fluid{
+    display: flex;
+}
+
 /*--------------------------------- CORRECT / INCORRECT -----------------*/
 .correct {
     background: linear-gradient(32deg, rgba(11,223,36) 0%, rgb(41,232,111) 100%);
@@ -66,6 +70,7 @@ body {
 }
 
 #progressBar{
+    display: flex;
     width: 20rem;
     height: 3rem;
     border: 0.2rem solid rgb(11,223,36);
@@ -80,19 +85,20 @@ body {
     width: 0%;
 }
 
-/* Image containers (25% for four) */
+/*---------------------------------- Image containers (25% for four) ----------*/
 .column {
     float: left;
     width: 24%;
     padding: 2px;
     margin: auto;
+    display: flex;
   }
   
-  /* Clear floats after image containers */
+  /*-------------------------------- Clear floats after image containers -------- */
   .row::after {
     content: "";
     clear: both;
-    display: table;
+    display: flex;
   }
 
 
@@ -100,5 +106,6 @@ body {
 @media screen and (max-width: 768px){
     .choice-container{
         min-width: 40rem;
+        display: flex;
     }
 }

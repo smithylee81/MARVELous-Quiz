@@ -27,7 +27,13 @@ body{
  font-family:'Bangers';
  font-size: 1.5rem;;
  color: #cccccc;
- text-align: center;
+ text-shadow: 4px 4px #273e47;
+ height: 10em;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-left: 33.3%;
+ 
 }
 
 /*-------------------- CONTAINERS -------------------*/
@@ -38,11 +44,10 @@ body{
  display: flex;
  justify-content: center;
  align-items: center;
- max-width: 80rem;
+ max-width: 100rem;
  margin: 0 auto;
  padding: 2rem;
 }
-
 
 
 /*-------------------- DIVIDERS --------------*/
@@ -105,12 +110,17 @@ i {
 
 /*--------------------- MEDIA QUERIES ------------------*/
 
-/*@media screen and (max-width:320px) {
+@media screen and (max-width:320px) {
     .social-links i{
     width: 100%;
     vertical-align: center;
     }
-*/
+
+@media screen and (max-width: 768px){
+    .choice-container{
+            min-width: 40rem;
+        }
+    }
 
 /*--------------------- END PAGE CSS -----------------*/
 
