@@ -5,7 +5,7 @@
 
 .main-heading {
  font-family:'Bangers';
- font-size: 4.5rem;;
+ font-size: 4.5rem;
  color: #cccccc;
  text-shadow: 4px 4px #273e47;
 }
@@ -141,6 +141,22 @@ input{
     box-shadow: 0 0.4rem 1.4rem #273e47 ;
 }
 
+input::-webkit-input-placeholder{
+    color: #aaa;
+}
+
+input::-moz-placeholder{
+    color: #aaa;
+}
+
+input:-ms-input-placeholder{
+    color: #aaa;
+}
+
+input::-ms-input-placeholder{
+    color: #aaa;
+}
+
 input::placeholder{
     color: #aaa;
 }
@@ -159,4 +175,4 @@ input::placeholder{
 
 #saveScoreBtn {
     border: none;
-}
+}}
