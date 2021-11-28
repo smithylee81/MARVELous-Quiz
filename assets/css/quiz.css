@@ -7,13 +7,26 @@ body {
     font-family: 'Bangers';
    }
 
+   /*-------------------------- HEADER/NAVBAR ------------------*/
 .header{
     font-family:'Bangers';
     font-size: 1.5rem;;
     color: #cccccc;
     text-shadow: 4px 4px #273e47;
+    
    }
 
+   li{
+      list-style-type: none;
+      display: flex;
+   }
+
+   *, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+   /*-------------------------- CHOICES CONTAINER -------------------*/
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
