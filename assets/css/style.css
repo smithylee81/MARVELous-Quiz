@@ -1,13 +1,34 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
-/*-------------------- MAIN HEADING AND BODY -----------------*/
+/*-------------------- NAVBAR / MAIN HEADING AND BODY -----------------*/
+/* Credit to Bootstrap for responsive nav bar*/
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #0d6efd;
+    background-color: #cccccc;
+    font-weight: 900;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-decoration: solid;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
 
 .main-heading {
  font-family:'Bangers';
  font-size: 4.5rem;
  color: #cccccc;
  text-shadow: 4px 4px #273e47;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 
 body{
@@ -19,6 +40,16 @@ body{
  font-size: 1.5rem;;
  color: #cccccc;
  text-shadow: 4px 4px #273e47;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+/*-------------------- HERO IMAGE ----------------------*/
+
+.hero-image{
+    
+
 }
 
 /*-------------------- Instructions Section -------------*/
@@ -33,6 +64,7 @@ body{
  align-items: center;
  justify-content: center;
  margin-left: 33.3%;
+ display: flex;
  
 }
 
@@ -47,6 +79,7 @@ body{
  max-width: 100rem;
  margin: 0 auto;
  padding: 2rem;
+ display: flex;
 }
 
 
@@ -73,31 +106,17 @@ body{
     padding: 1rem;
 }
 
-/*
-#play-btn{
-    font-family: 'Bangers';
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 1rem;
-}
-
-#highscores-btn{
-    font-family: 'Bangers';
-    font-size: 1.5rem;
-    text-align: center;
-    padding: 1rem;
-}
-*/
-
 /*--------------------- SAVE BUTTON ---------------------*/
-/*
+
 .btn[diabled]:hover {
     cursor: not-allowed;
     box-shadow: transform 150ms;
     transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
 }
-*/
-
 
 /*--------------------- ICONS ---------------------*/
 
@@ -107,18 +126,27 @@ i {
     
 }
 
-
 /*--------------------- MEDIA QUERIES ------------------*/
 
 @media screen and (max-width:320px) {
     .social-links i{
     width: 100%;
     vertical-align: center;
+    display: flex;
     }
 
 @media screen and (max-width: 768px){
     .choice-container{
             min-width: 40rem;
+            display: flex;
         }
     }
 
+    @media (min-width: 576px)
+.text-sm-center {
+    text-align: center!important;
+}
+@media (min-width: 576px)
+.flex-sm-fill {
+    flex: 1 1 auto!important;
+}
