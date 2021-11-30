@@ -6,8 +6,9 @@
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #0d6efd;
-    background-color: #cccccc;
     font-weight: 900;
+    background-color: #cccccc;
+    font-family:'Bangers';
 }
 
 .nav-link {
@@ -63,7 +64,7 @@ body{
  display: flex;
  align-items: center;
  justify-content: center;
- margin-left: 33.3%;
+ text-align: center;
  display: flex;
  
 }
@@ -118,13 +119,22 @@ body{
     -o-transform: none;
 }
 
-/*--------------------- ICONS ---------------------*/
+/*--------------------- BTN ICONS ---------------------*/
 
 i {
     border: 6px;
     padding: 6px;
     
 }
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    font-size: 2rem;
+}
+/*--------------------- FOOTER --------------------------*/
+
+
 
 /*--------------------- MEDIA QUERIES ------------------*/
 

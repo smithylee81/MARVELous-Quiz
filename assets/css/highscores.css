@@ -3,9 +3,40 @@
 
 body {
     background-color: #e40b0b;
+    font-family: 'Bangers';
    }
 
-   /*--------------------------------Header/NavBar ------------------*/
+   /*-------------------- NAVBAR / MAIN HEADING AND BODY -----------------*/
+   /* Credit to Bootstrap for responsive nav bar*/
+   
+   .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+       color: #0d6efd;
+       font-weight: 900;
+       background-color: #cccccc;
+       font-family:'Bangers';
+   }
+   
+   .nav-link {
+       display: block;
+       padding: 0.5rem 1rem;
+       color: #0d6efd;
+       text-decoration: none;
+       font-weight: 900;
+       font-family:'Bangers';
+       letter-spacing: 2px;
+       text-decoration: solid;
+       transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+   }
+   
+      li{
+         list-style-type: none;
+         display: flex;
+      }
+   
+      *, ::after, ::before {
+       box-sizing: border-box;
+   }
+
    .header{
     font-family:'Bangers';
     font-size: 1.5rem;;
@@ -16,7 +47,6 @@ body {
    li{
       list-style-type: none;
    }
-
 
 #finalScore {
     font-family:'Bangers';
@@ -31,3 +61,32 @@ body {
     width: 100%;
     margin: 0;
    }
+
+
+
+
+   
+   /*--------------------- MEDIA QUERIES ------------------*/
+
+@media screen and (max-width:320px) {
+   .social-links i{
+   width: 100%;
+   vertical-align: center;
+   display: flex;
+   }
+
+@media screen and (max-width: 768px){
+   .choice-container{
+           min-width: 40rem;
+           display: flex;
+       }
+   }
+
+   @media (min-width: 576px)
+.text-sm-center {
+   text-align: center!important;
+}
+@media (min-width: 576px)
+.flex-sm-fill {
+   flex: 1 1 auto!important;
+}

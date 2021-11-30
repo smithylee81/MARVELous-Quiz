@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/highscores.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <title>High Scores</title>
@@ -13,31 +12,13 @@
     <!-- NAV BAR START -->
 
     <div class="header">
-        <nav class="navbar navbar-expand-lg navbar-red bg-red">
-            <button class="navbar-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-            </button>
-    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-        <ul class="navbar-nav" id="menu">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Instructions</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="quiz.html">Play Quiz</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="highscores.html">High Scores</a>
-            </li>
-        </ul>
+        <nav class="nav nav-pills flex-column flex-sm-row">
+            <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="#instructions">Instructions</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="quiz.html">Play Quiz</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="highscores.html">High Scores</a>
+          </nav>
     </div>
-        </nav>
-    </div>
-
     <!-- NAV BAR END -->
 <hr class="divider">
     <!------------------ Final Score / Leaderboard Start --------------->
@@ -49,6 +30,46 @@
         </div>
     </div>
     <!------------------ Final Score / Leaderboard End --------------->
+
+    <!--------------------------- FOOTER START ------------------------->
+    <footer>
+        <div class="container-fluid justify-content-center">
+            <div class="row justify-content-center">
+                <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+                    <ul class="list-inline">
+                        <li class="list-inline-item social-link">
+                            <a href="https://www.facebook.com" target="_blank">
+                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item social-link">
+                            <a href="https://github.com/smithylee81" target="_blank">
+                            <i class="fab fa-github-square" aria-hidden="true"></i>
+                            <span class="sr-only">Github</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item social-link">
+                            <a href="https://www.linkedin.com" target="_blank">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
+                            </a>
+                        </li>
+                        <li class="list-inline-item social-link">
+                            <a href="https://discord.com/channels/@me" target="_blank">
+                            <i class="fab fa-discord" aria-hidden="true"></i>
+                            <span class="sr-only">Discord</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <small class="copyright-text">
+                        © Copyright 2021. SmithyLee.
+                    </small>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!--------------------------- FOOTER END ------------------------->
      <!----------------- SCRIPTS START ------------------------------->
 
     <script src="assets/js/highscores.js"></script>

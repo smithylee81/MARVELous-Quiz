@@ -4,40 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <link rel="stylesheet" href="assets/css/quiz.css">
     
     <title>Quiz Page</title>
 </head>
 <body>
-    <!------- NAV BAR START ------>
-    <header>
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-red bg-red">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class="navbar-nav" id="menu">
-                        <li class="nav-item ative">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Instructions</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="quiz.html">Play Quiz</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="highscores.html">High Scores</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
-    
-    <!--------------------------- NAV BAR END ------------------------>
+<!-------------------------- NAV BAR START ---------------------->
+    <nav class="nav nav-pills flex-column flex-sm-row">
+        <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="index.html">Home</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#instructions">Instructions</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="quiz.html">Play Quiz</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="highscores.html">High Scores</a>
+      </nav>
+
+<!--------------------------- NAV BAR END ------------------------>
     <hr class="divider">
     <!--------------------------- Progress Bar Start------------------>
     <div class="container-fluid">
@@ -100,7 +80,45 @@
             <img src="assets/images/Ironman2.jpeg" alt="Iron Man" style="width:100%">
           </div>
       </div>
-
+<!--------------------------- FOOTER START ------------------------->
+        <footer>
+            <div class="container-fluid justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-md-12 col-lg-6 text-center">
+                        <ul class="list-inline">
+                            <li class="list-inline-item social-link">
+                                <a href="https://www.facebook.com" target="_blank">
+                                <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item social-link">
+                                <a href="https://github.com/smithylee81" target="_blank">
+                                <i class="fab fa-github-square" aria-hidden="true"></i>
+                                <span class="sr-only">Github</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item social-link">
+                                <a href="https://www.linkedin.com" target="_blank">
+                                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                <span class="sr-only">LinkedIn</span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item social-link">
+                                <a href="https://discord.com/channels/@me" target="_blank">
+                                <i class="fab fa-discord" aria-hidden="true"></i>
+                                <span class="sr-only">Discord</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <small class="copyright-text">
+                            © Copyright 2021. SmithyLee.
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </footer>
+<!--------------------------- FOOTER END ------------------------->
          <!--------------------------- Scripts Start------------------>
 <script src="assets/js/quiz.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
