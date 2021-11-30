@@ -62,10 +62,21 @@ body {
     margin: 0;
    }
 
+   /*-------------------- FOOTER -----------------*/
+footer {
 
 
+}
 
-   
+.list-inline {
+   padding-left: 0;
+   list-style: none;
+   font-size: 2rem;
+   display: flex;
+   position: absolute;
+}
+
+
    /*--------------------- MEDIA QUERIES ------------------*/
 
 @media screen and (max-width:320px) {
