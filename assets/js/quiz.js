@@ -3,7 +3,10 @@
  *  @type - DOMElement - current question
  */
  const question = document.querySelector('#question');
- const choices = Array.from(document.querySelector('.choice-text'));
+ 
+ //  const choices = Array.from(document.querySelector('.choice-text'));
+ const choices = document.querySelectorAll('.choice-text');
+
  const progressText = document.querySelector('#progressText');
  const scoreText = document.querySelector('#score');
  const progressBarFull = document.querySelector('#progressBarFull');
@@ -67,23 +70,18 @@
      getNewQuestion();
  };
  
- /**
-  * 
-  * @param {*} a 
-  * @param {*} b 
-  * @returns 
-  */
- const getNewQuestion = (a,b) => {
+ 
+ const getNewQuestion = () => {
      if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS){
          localStorage.setItem('mostRecentScore', score);
  
          return window.location.assign('/end.html');
      }
- 
-     questionCounter++;
+     //Applied the prefix over postfix, explain this
+     ++questionCounter;
      progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
      progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
- 
+     
      const questionsIndex = Math.floor(Math.random() * availableQuestions.length);
      currentQuestion = availableQuestions[questionsIndex];
      question.innerText = currentQuestion.question;
@@ -92,11 +90,11 @@
          const number = choice.dataset['number'];
          choice.innerText = currentQuestion['choice' + number];
      });
- 
-     availableQuestions.splice(questionsIndex, 1);
-     acceptingAnswers = true;
+
+     availableQuestions.splice(questionsIndex, 1); 
+
+    acceptingAnswers = true;
  };
- 
  
  
  const incrementScore = num => {
@@ -120,10 +118,15 @@
  
          selectedChoice.parentElement.classList.add(classToApply);
  
-         setTimeout(() => {
+        //  setTimeout(() => {
+        //      selectedChoice.parentElement.classList.remove(classToApply);
+        //      getNewQuestion();
+        //  }, 1000);
+        // Made the response time shorter to make the questions snap quicker
+        setTimeout(() => {
              selectedChoice.parentElement.classList.remove(classToApply);
              getNewQuestion();
-         }, 1000);
+         }, 750);
      });
  });
  

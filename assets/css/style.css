@@ -17,9 +17,14 @@
     color: #0d6efd;
     text-decoration: none;
     font-weight: 900;
+    font-family:'Bangers';
     letter-spacing: 2px;
     text-decoration: solid;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    -moz-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    -ms-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
 .main-heading {

@@ -68,9 +68,9 @@
 ---
 ## Frameworks, Libraries & Programs Used / Resources
 
-1. [Bootstrap 5.1:]( https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+1. [Bootstrap 5.1:3](https://getbootstrap.com/docs/5.1.3/getting-started/introduction/)
     - Bootstrap was be used to assist me with styling and responsiveness.
-2. [Font Awesome *TBC* :](https://fontawesome.com/)
+2. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used to add icons for aesthetic and UX purposes.
 3. [Git:](https://git-scm.com/)
     - Git was used for version control utilising the 'Gitpod Terminal' to 'Commit' and 'Push' to GitHub.   

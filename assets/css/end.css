@@ -1,11 +1,19 @@
 /*--------------------- END PAGE CSS -----------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body{
+    background-color: #e40b0b;
+    font-family: 'Bangers';
+   }
+
 .end-form-container{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 30rem;
+    background-color: #e40b0b;
 }
 
 input{
@@ -45,7 +53,7 @@ input::placeholder{
 
 #end-text{
     font-size: 2.4rem;
-    color: #fff;
+    color: #aaa;
     text-align: center;
 }
 

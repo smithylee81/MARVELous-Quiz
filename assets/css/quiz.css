@@ -26,9 +26,11 @@ body {
     letter-spacing: 2px;
     text-decoration: solid;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    -moz-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    -ms-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
-
-
 
    li{
       list-style-type: none;
@@ -39,6 +41,12 @@ body {
     box-sizing: border-box;
 }
 
+/*----------------------------- H1 QUESTION -------------------------*/
+@media (min-width: 1200px)
+#question {
+    font-size: 2.5rem;
+    padding-top: 6rem;
+}
 
    /*-------------------------- CHOICES CONTAINER -------------------*/
 .choice-container {
@@ -69,6 +77,13 @@ body {
 
 .container-fluid{
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quiz {
+    display: flex;
+   
 }
 
 /*--------------------------------- CORRECT / INCORRECT -----------------*/
@@ -112,14 +127,17 @@ body {
     width: 0%;
 }
 
-/*---------------------------------- Image containers (25% for four) ----------*/
+/*---------------------------------- Image containers ----------*/
 .column {
     float: left;
     width: 24%;
     padding: 2px;
     margin: auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
   }
+
   
   /*-------------------------------- Clear floats after image containers -------- */
   .row::after {
@@ -127,6 +145,11 @@ body {
     clear: both;
     display: flex;
   }
+
+  .row{
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
 
 
 /*--------------------- MEDIA QUERIES ------------------*/
