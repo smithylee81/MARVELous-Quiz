@@ -54,8 +54,12 @@ body{
 /*-------------------- HERO IMAGE ----------------------*/
 
 .hero-image{
-    
-
+    width: 100%;
+    padding: 2px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*-------------------- Instructions Section -------------*/
@@ -65,13 +69,15 @@ body{
  font-size: 1.5rem;;
  color: #cccccc;
  text-shadow: 4px 4px #273e47;
- height: 10em;
+ /*height: 10em;*/
  display: flex;
  align-items: center;
  justify-content: center;
- text-align: center;
- display: flex;
- 
+ /*text-align: center;*/
+}
+
+.text-center {
+    margin: auto;
 }
 
 /*-------------------- CONTAINERS -------------------*/

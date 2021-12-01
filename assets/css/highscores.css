@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
-
 body {
-    background-color: #e40b0b;
+    color: #e40b0b;
     font-family: 'Bangers';
    }
 
@@ -66,6 +65,8 @@ body {
 footer {
 position: absolute;
 display: flex;
+align-items: center;
+justify-content: center;
 
 }
 
