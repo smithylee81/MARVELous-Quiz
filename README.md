@@ -134,9 +134,41 @@
 
 
 ### Known/Solved Bugs
-- #### 
+- #### Hero Image (Marvel Logo) on Home Page not responsive with a breakpoint at 770px, anything below this point the window covers the image:
+![Hero Image Break](assets/images/MarvelLogoBreakBelow770px.png "MarvelLogoBreakBelow770px")
 
-- #### 
+This was overcome by adding further css properties with a margin: auto; display: flex; align-items: center; justify-content: center; as per the final Home Page display. 
+
+
+
+- #### The Instructions area also had a breakpoint on larger screens where it would display to the left of the screen above 922px and on smaller screens the content would spill over into other screen areas on screens below 374px:
+![Instructions Breakpoint](assets/images/InstructBreakAbove922px.png "InstructBreakAbove922px")
+![Instructions Breakpoint](assets/images/InstructBreakBelow374px.png "InstructBreakBelow374px")
+
+This was overcome by adding further css properties with a margin: auto; and removing the height: 10em; property as per the final Home Page display.
+
+- #### The Quiz page Marvel Images had were larger on large screens with a margin to the right showing empty space, on smaller screens these would display to the left and where considerably smaller:
+![Marvel Images Desktop Break Breakpoint](assets/images/MarvelImgDisplayBugDeskT.png "MarvelImgDisplayBugDeskT")
+![Marvel Images Desktop Break Breakpoint](assets/images/MarvelImgDisplayBugiPad.png "IMarvelImgDisplayBugiPad")
+
+This was overcome by adding further css properties with a display: flex; align-items: center; justify-content: center; and a margin left and right of 0.5rem, as per the final Quiz Page display.
+
+- #### The initial JavaScript code wouldn't display any questions or choices.After running the quiz.js file through 'JS Hint', this showed that there were some warnings (mainly in connection with ES6 version), missing semicolons and there were some 'undefined variables':
+
+- ##### 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+- ##### 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+- ##### 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
+- ##### 'spread operator' is only available in ES6 (use 'esversion: 6').
+- ##### 'template literal syntax' is only available in ES6 (use 'esversion: 6').
+- ##### ['number'] is better written in dot notation.
+
+- ##### JSHINT Undefined Variables: startGame, getNewQuestion and incrementScore.
+
+![JS Missing Semicolons](assets/images/JSmissingSemicolons.png "JSmissingSemicolons")
+
+![JS Undefined Variables](assets/images/JSUndefinedVariables.png "JSUndefinedVariables")
+
+This was overcome by adding 
 
 ---
 
@@ -201,7 +233,7 @@
 - ### My CI Mentor for continuous helpful support, guidance and feedback. 
 - ### The Code Institute Tutor Support Team for their advice and guidance.
 - ### Harry Dhillon for peer support, advice, guidance and encouragement. (https://github.com/Harry-Leepz)
-- ### The slack community for peer support, encouragement, and tutorial YouTube videos which were very helpful: 
+- ### The slack community for peer support and encouragement and tutorial YouTube videos which were very helpful: 
 
 - [YouTube Video - Milestone 2 Planning with Aukje van der Wal] (https://youtu.be/40vLxYUJiQY)
 - [YouTube Video from Brian Design: “How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial“] (https://www.youtube.com/watch?v=f4fB9Xg2JEY)
