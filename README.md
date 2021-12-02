@@ -4,7 +4,7 @@
 
 >A simple quiz website for users to visit and challenge themselves on their favourite MARVEL movies. The website is designed to be responsive and accessible on a wide range of devices, making it easy for everyone to access and play whether they're on the go or sitting at a desktop.
 
-<h2 align ="center"><img src="assets/images/MarvelAmIResponsive"></h2>
+<h2 align ="center"><img src="assets/images/MarvelAmIResponsive.png"></h2>
 
 
 ## User Experience (UX)
@@ -44,14 +44,14 @@
     - #### Scope
         - ##### I want to provide the users with a brief overview of the instructions for the quiz and provide an easy navigation experience throughout the quiz.
 
-    - #### Structure 
+    - #### Structure
         - ##### I want the site to be intuitive, consistent, and easy to navigate. I aim to keep the pages basic and easy to use with a bold colour scheme in keeping with the MARVEL theme. I aim to keep the pages similar throughout for ease of use and include MARVEL images to keep the theme.
 
-    - #### Skeleton 
-        - ##### Wireframes - [View](/github.com/smithylee81/MARVELous-Quiz/blob/3397d173bde5189ecc6d41a079ff762cc4336707/Wireframes) Basic drawings have been produced rather than on the Balsamiq website keeping things simplistic.
+    - #### Skeleton
+        - ##### Wireframes - [View](https://github.com/smithylee81/MARVELous-Quiz/blob/3397d173bde5189ecc6d41a079ff762cc4336707/Wireframes) Basic drawings have been produced rather than on the Balsamiq website keeping things simplistic.
 
     - #### Surface
-        - ##### The colour scheme together with the imagery described was used to create an overall eye-catching MARVEL themed experience with a Comic book feel. 
+        - ##### The colour scheme together with the imagery described was used to create an overall eye-catching MARVEL themed experience with a Comic book feel.
 ---
 ## Features
 
@@ -64,24 +64,24 @@
 
 - ### HTML5
 - ### CSS3
-- ### JavaScript{}
+- ### JavaScript
 ---
 ## Frameworks, Libraries & Programs Used / Resources
 
-1. [Bootstrap 5.1](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+1. [Bootstrap v5.1](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
     - Bootstrap was be used to assist me with styling and responsiveness.
-2. [Font Awesome:](https://fontawesome.com/)
+2. [Font Awesome v5.15.4:](https://fontawesome.com/)
     - Font Awesome was used to add icons for aesthetic and UX purposes.
 3. [Git:](https://git-scm.com/)
-    - Git was used for version control utilising the 'Gitpod Terminal' to 'Commit' and 'Push' to GitHub.   
+    - Git was used for version control utilising the 'Gitpod Terminal' to 'Commit' and 'Push' to GitHub.
 4. [GitPod:](https://gitpod.io/workspaces/)
     - GitPod was be used as the main workspace for writing the code.
 5. [GitHub:](https://github.com/)
     - GitHub was be used to store the code after being 'Pushed' from Gitpod.
 6. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the font styles into the style.css file which is used on all pages throughout the site.  
+    - Google fonts were used to import the font styles into the style.css file which is used on all pages throughout the site.
 7. [JQuery JavaScript Library](https://cdnjs.com/libraries/jquery)
-    - JQuery Library utilised for JavaScript files. 
+    - JQuery Library utilised for JavaScript files.
 
 ---
 
@@ -90,6 +90,7 @@
 - ### The W3C CSS Validator Service and HTML checker was used to validate the HTML and CSS pages of the project to ensure there were no significant errors.  
 
 - ### JS HINT was used to validate the JavaScript files. 
+
 
 - ### The Website was tested on Google Chrome, Firefox and Safari browsers.
 - ### The website was viewed on a variety of devices such as Desktop, Laptop, various iPhones and iPads.
@@ -118,9 +119,14 @@
     - #### As a frequent visitor,I want to be able to see any new changes and challenge myself on my Marvel knowledge.
         1. The user would already be comfortable with the website layout and can easily navigate between the pages.
 
-## Further Testing 
+## Further Testing
 
-- ### Manual Testing of each section - *TBC*
+- ### Manual Testing of each section
+- #### Home Page/Navigation Bar: All page links were tested to ensure they take the user to the desired area on the page, the dropdown menu was also tested on smaller devices to ensure the user still had these options on their mobile/smaller device.
+
+        1. Testing the navigation bar to ensure this takes the user to the different areas on the page:
+    
+    - #### Home Page,    :
 
 
 ### Testing Site Responsiveness
@@ -170,10 +176,40 @@
 
 
 ---
-## Credits - *TBC*
+## Credits
 
+1. [Bootstrap v5.1](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+    - Bootstrap was used throughout the project to assist me with styling and responsiveness.
+2. [Font Awesome v5.15.4:](https://fontawesome.com/)
+    - Font Awesome was used to add icons for aesthetic and UX purposes.
+3. [GitPod:](https://gitpod.io/workspaces/)
+    - GitPod was be used as the main workspace for writing the code.
+4. [GitHub:](https://github.com/)
+    - GitHub was be used to store the code after being 'Pushed' from Gitpod.
+5. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts for the use of the Comic Book font look using 'Bangers'.
+6. [JQuery - JavaScript Library](https://cdnjs.com/libraries/jquery)
+    - The JQuery Library utilised for JavaScript.
+7. [VSCode](https://code.visualstudio.com/)
+    - VSCode proved a great platform for my workspace and worked well alongside GitHub/GitPod.
+8. Code Institute Mentor - Spencer Barriball, for continuous support and assistance. 
+9. Friend & Developer - Peter Singh, for continuous support, encouragement and his JavaScript knowledge.
 
 ---
 ## Acknowledgements
 
+- ### My CI Mentor for continuous helpful support, guidance and feedback. 
+- ### The Code Institute Tutor Support Team for their advice and guidance.
+- ### Harry Dhillon for peer support, advice, guidance and encouragement. (https://github.com/Harry-Leepz)
+- ### The slack community for peer support, encouragement, and tutorial YouTube videos which were very helpful: 
+
+- [YouTube Video - Milestone 2 Planning with Aukje van der Wal] (https://youtu.be/40vLxYUJiQY)
+- [YouTube Video from Brian Design: “How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial“] (https://www.youtube.com/watch?v=f4fB9Xg2JEY)
+- [Marvel Questions obtained from ‘Thought Catalog’ – “100 Fun Marvel Trivia Questions & Answers for Fans (
+https://thoughtcatalog.com/january-nelson/2021/03/marvel-trivia-questions/)
+
+
+- ### Also, to my friend Peter Singh for his continued support in my new venture into the world of Developers, his ongoing encouragement, and his personal tutorials on the world of JavaScript. Peter Singh: ‘aFuzzyBear’ @ (https://github.com/aFuzzyBear)
+
+---
 
