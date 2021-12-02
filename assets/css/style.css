@@ -73,6 +73,7 @@ body{
  display: flex;
  align-items: center;
  justify-content: center;
+
  /*text-align: center;*/
 }
 
@@ -138,14 +139,17 @@ i {
     
 }
 
+/*--------------------- FOOTER --------------------------*/
+
 .list-inline {
     padding-left: 0;
     list-style: none;
     font-size: 2rem;
 }
-/*--------------------- FOOTER --------------------------*/
 
-
+.copyright{
+    font-family: 'Bangers';
+}
 
 /*--------------------- MEDIA QUERIES ------------------*/
 

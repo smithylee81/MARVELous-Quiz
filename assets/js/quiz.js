@@ -3,10 +3,7 @@
  *  @type - DOMElement - current question
  */
  const question = document.querySelector('#question');
- 
- //  const choices = Array.from(document.querySelector('.choice-text'));
  const choices = document.querySelectorAll('.choice-text');
-
  const progressText = document.querySelector('#progressText');
  const scoreText = document.querySelector('#score');
  const progressBarFull = document.querySelector('#progressBarFull');
@@ -75,7 +72,7 @@
      if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS){
          localStorage.setItem('mostRecentScore', score);
  
-         return window.location.assign('/end.html');
+         return window.location.assign('end.html');
      }
      //Applied the prefix over postfix, explain this
      ++questionCounter;

@@ -50,8 +50,6 @@ body {
 
    /*-------------------------- CHOICES CONTAINER -------------------*/
 
-
-
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
@@ -141,7 +139,36 @@ body {
     justify-content: center;
   }
 
-  
+  /*-------------------------------- FOOTER ----------------------------*/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .list-inline {
+       padding: 20px;
+       list-style: none;
+       font-size: 2rem;
+       justify-content: center;
+       align-items: center;
+       display: flex;
+    }
+    
+    i{
+       align-items: center;
+       justify-content:center;
+       display: flex;
+       padding: 0.5rem;
+    }
+
+    .copyright{
+        font-family: 'Bangers';
+    }
+
+
+
   /*-------------------------------- Clear floats after image containers -------- */
   .row::after {
     content: "";
