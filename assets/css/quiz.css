@@ -1,55 +1,46 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-
 body {
     background-color: #e40b0b;
-    font-family: 'Bangers';
-   }
-
+    font-family: 'Bangers', serif;
+}
 /*-------------------- NAVBAR / MAIN HEADING AND BODY -----------------*/
 /* Credit to Bootstrap for responsive nav bar*/
-
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #0d6efd;
     font-weight: 900;
     background-color: #cccccc;
-    font-family:'Bangers';
+    font-family: 'Bangers', serif;
 }
-
 .nav-link {
     display: block;
     padding: 0.5rem 1rem;
     color: #0d6efd;
     text-decoration: none;
     font-weight: 900;
-    font-family:'Bangers';
+    font-family: 'Bangers', serif;
     letter-spacing: 2px;
     text-decoration: solid;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-    -moz-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-    -ms-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    -webkit-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    -moz-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+    -o-transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
-
-   li{
-      list-style-type: none;
-      display: flex;
-   }
-
-   *, ::after, ::before {
+li {
+    list-style-type: none;
+    display: flex;
+}
+*, ::after, ::before {
     box-sizing: border-box;
 }
-
 /*----------------------------- H1 QUESTION -------------------------*/
-@media (min-width: 1200px)
-#question {
-    font-size: 2.5rem;
-    padding-top: 6rem;
+@media (min-width: 1200px) {
+    #question {
+        font-size: 2.5rem;
+        padding-top: 6rem;
+    }
 }
-
-   /*-------------------------- CHOICES CONTAINER -------------------*/
-
+/*-------------------------- CHOICES CONTAINER -------------------*/
 .choice-container {
     display: flex;
     margin-bottom: 0.8rem;
@@ -59,75 +50,60 @@ body {
     font-size: 3rem;
     min-width: 80rem;
 }
-
 .choice-container:hover {
     cursor: pointer;
     box-shadow: 0 0.4rem 1.4rem #273e47;
     transform: scale(1.02);
 }
-
-.choice-prefix{
+.choice-prefix {
     padding: 2rem 2.5rem;
     color: black;
 }
-
-.choice-text{
+.choice-text {
     padding: 2rem;
     width: 100%;
 }
-
-.container-fluid{
+.container-fluid {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 #quiz {
     display: flex;
-   
 }
-
 /*--------------------------------- CORRECT / INCORRECT -----------------*/
 .correct {
-    background: linear-gradient(32deg, rgba(11,223,36) 0%, rgb(41,232,111) 100%);
+    background: linear-gradient(32deg, rgba(11, 223, 36, 1) 0%, rgb(41, 232, 111) 100%);
 }
-
 .incorrect {
-    background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224,11,11, 1) 100%);
+    background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11) 100%);
 }
-
 /*---------------------------------- HEADS UP DISPLAY --------------------*/
-
 #hud {
     display: flex;
     justify-content: space-between;
 }
-
-.hud-prefix{
+.hud-prefix {
     text-align: center;
     font-size: 2rem;
 }
-
-.hud-main-text{
+.hud-main-text {
     text-align: center;
 }
-
-#progressBar{
+#progressBar {
     display: flex;
     width: 20rem;
     height: 3rem;
-    border: 0.2rem solid rgb(11,223,36);
+    border: 0.2rem solid rgb(11, 223, 36);
     margin-top: 2rem;
     border-radius: 50px;
     overflow: hidden;
 }
-
-#progressBarFull{
+#progressBarFull {
     height: 100%;
-    background: rgb(11,223,36);
-    width: 0%;
+    background: rgb(11, 223, 36);
+    width: 0;
 }
-
 /*---------------------------------- Image containers ----------*/
 .column {
     float: left;
@@ -137,23 +113,48 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
+/*-------------------------------- Clear floats after image containers -------- */
+.row::after {
+    content: "";
+    clear: both;
+    display: flex;
+}
+.row {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
 
-  /*-------------------------------- FOOTER ----------------------------*/
 
+/*----------------------------------- FOOTER -----------------------------*/
 footer {
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
+    
     }
     
-    .list-inline {
+    /*.list-inline {
        padding: 20px;
        list-style: none;
        font-size: 2rem;
        justify-content: center;
        align-items: center;
        display: flex;
+    } */
+
+    .list-inline {
+        padding-left: 0;
+        list-style: none;
+        font-size: 2rem;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .copyright{
+        font-family: 'Bangers';
     }
     
     i{
@@ -161,48 +162,28 @@ footer {
        justify-content:center;
        display: flex;
        padding: 0.5rem;
-    }
-
-    .copyright{
-        font-family: 'Bangers';
-    }
-
-
-
-  /*-------------------------------- Clear floats after image containers -------- */
-  .row::after {
-    content: "";
-    clear: both;
-    display: flex;
-  }
-
-  .row{
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-}
-
-
+    } 
 /*--------------------- MEDIA QUERIES ------------------*/
-
-@media screen and (max-width:320px) {
-    .social-links i{
-    width: 100%;
-    vertical-align: center;
-    display: flex;
+@media screen and (max-width: 320px) {
+    .social-links i {
+        width: 100%;
+        vertical-align: center;
+        display: flex;
     }
-
-@media screen and (max-width: 768px){
-    .choice-container{
-            min-width: 40rem;
-            display: flex;
-        }
-    }
-
-    @media (min-width: 576px)
-.text-sm-center {
-    text-align: center!important;
 }
-@media (min-width: 576px)
-.flex-sm-fill {
-    flex: 1 1 auto!important;
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+        display: flex;
+    }
+}
+@media (min-width: 576px) {
+    .text-sm-center {
+        text-align: center !important;
+    }
+}
+@media (min-width: 576px) {
+    .flex-sm-fill {
+        flex: 1 1 auto !important;
+    }
 }

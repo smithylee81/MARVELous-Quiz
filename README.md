@@ -122,11 +122,10 @@
 ## Further Testing
 
 - ### Manual Testing of each section
-- #### Home Page/Navigation Bar: All page links were tested to ensure they take the user to the desired area on the page, the dropdown menu was also tested on smaller devices to ensure the user still had these options on their mobile/smaller device.
+- #### Home Page/Navigation Bar: All nav bar links were tested to ensure they take the user to the desired area on the site, the dropdown menu was also tested on smaller devices to ensure the user still had these options on their mobile/smaller device, these all worked well wth no issues.
 
-- Testing the navigation bar to ensure this takes the user to the different areas of the site:
-    
-    - #### Home Page,    :
+
+    - #### Quiz Page Display:
 
 ![Quiz Page Display Issue](assets/images/QuizQ&ANoDisplaySmall.png "QuizQ&ANoDisplaySmall")
 

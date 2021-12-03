@@ -4,92 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+          crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/quiz.css">
-    
     <title>Quiz Page</title>
 </head>
 <body>
 <!-------------------------- NAV BAR START ---------------------->
 <section id="navbar">
     <div class="container-fluid">
-      <nav class="nav nav-pills flex-column flex-sm-row">
-    <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="index.html">Home</a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="index.html">Instructions</a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="quiz.html">Play Quiz</a>
-    <a class="flex-sm-fill text-sm-center nav-link" href="highscores.html">High Scores</a>
-     </nav>
-   </div>
+        <nav class="nav nav-pills flex-column flex-sm-row">
+            <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="index.html">Instructions</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="quiz.html">Play Quiz</a>
+            <a class="flex-sm-fill text-sm-center nav-link" href="highscores.html">High Scores</a>
+        </nav>
+    </div>
 </section>
 <!--------------------------- NAV BAR END ------------------------>
-    <hr class="divider">
-<!--------------------------- Progress Bar Start-------------------->
-    <div class="container-fluid">
-        <div id="quiz" class="justify-center flex-column">
-            <div id="hud">
-                <div class="hud-item">
-                    <p id="progressText" class="hud-prefix">
-                        Question
-                    </p>
-                    <div id="progressBar">
-                        <div id="progressBarFull"></div>
-                    </div>
+<hr class="divider">
+<!--------------------------- Progress Bar Start------------------>
+<div class="container">
+    <div id="quiz" class="justify-center flex-column">
+        <div id="hud">
+            <div class="hud-item">
+                <p id="progressText" class="hud-prefix">
+                    Question
+                </p>
+                <div id="progressBar">
+                    <div id="progressBarFull"></div>
                 </div>
-                    <div class="hud-item">
-                        <p class="hud-prefix">
-                            Score
-                        </p>
-                        <h1 class="hud-main-text" id="score">
-                            0
-                        </h1>
-                    </div>
             </div>
-            
-<!------------------------- Questions Start----------------------->
-
-            <h1 id="question">What is the answer to this question?</h1>
-            
-            <div class="choice-container">
-                <p class="choice-prefix">A</p>
-                <p class="choice-text" data-number="1">Choice</p>
+            <div class="hud-item">
+                <p class="hud-prefix">
+                    Score
+                </p>
+                <h1 class="hud-main-text" id="score">
+                    0
+                </h1>
             </div>
-            <div class="choice-container">
-                <p class="choice-prefix">B</p>
-                <p class="choice-text" data-number="2">Choice 2</p>
-            </div>
-            <div class="choice-container">
-                <p class="choice-prefix">C</p>
-                <p class="choice-text" data-number="3">Choice 3</p>
-            </div>
-            <div class="choice-container">
-                <p class="choice-prefix">D</p>
-                <p class="choice-text" data-number="4">Choice 4</p>
-            </div>
+        </div>
+        <!--------------------------- Questions Start------------------>
+        <h1 id="question">What is the answer to this question?</h1>
+        <div class="choice-container">
+            <p class="choice-prefix">A</p>
+            <p class="choice-text" data-number="1">Choice</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-prefix">B</p>
+            <p class="choice-text" data-number="2">Choice 2</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-prefix">C</p>
+            <p class="choice-text" data-number="3">Choice 3</p>
+        </div>
+        <div class="choice-container">
+            <p class="choice-prefix">D</p>
+            <p class="choice-text" data-number="4">Choice 4</p>
         </div>
     </div>
-
-<!------------------------- Avenger Images Start---------------->
-
+    <!--------------------------- Avenger Images Start------------------>
     <div class="row">
-        <div class="column">
-          <img src="assets/images/Captain-America1.jpeg" alt="Captain America" style="width:100%">
+        <div class="col-3">
+            <img src="assets/images/Captain-America1.jpeg" alt="Captain America" style="width:100%">
         </div>
-        <div class="column">
-          <img src="assets/images/Thor.jpeg" alt="Thor" style="width:100%">
+        <div class="col-3">
+            <img src="assets/images/Thor.jpeg" alt="Thor" style="width:100%">
         </div>
-        <div class="column">
-          <img src="assets/images/Hulk.jpeg" alt="Hulk" style="width:100%">
+        <div class="col-3">
+            <img src="assets/images/Hulk.jpeg" alt="Hulk" style="width:100%">
         </div>
-        <div class="column">
+        <div class="col-3">
             <img src="assets/images/Ironman2.jpeg" alt="Iron Man" style="width:100%">
-          </div>
-      </div>
-<!------------------------- FOOTER START ----------------------->
-        <!-- FOOTER START -->
+        </div>
+    </div>
+    <!--------------------------- FOOTER START ------------------------->
+    <!-- FOOTER START -->
     <footer>
         <div class="container-fluid justify-content-center">
             <div class="row justify-content-center">
@@ -97,26 +91,26 @@
                     <ul class="list-inline">
                         <li class="list-inline-item social-link">
                             <a href="https://www.facebook.com" target="_blank">
-                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
+                                <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                                <span class="sr-only">Facebook</span>
                             </a>
                         </li>
                         <li class="list-inline-item social-link">
                             <a href="https://github.com/smithylee81" target="_blank">
-                            <i class="fab fa-github-square" aria-hidden="true"></i>
-                            <span class="sr-only">Github</span>
+                                <i class="fab fa-github-square" aria-hidden="true"></i>
+                                <span class="sr-only">Github</span>
                             </a>
                         </li>
                         <li class="list-inline-item social-link">
                             <a href="https://www.linkedin.com" target="_blank">
-                            <i class="fab fa-linkedin" aria-hidden="true"></i>
-                            <span class="sr-only">LinkedIn</span>
+                                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                                <span class="sr-only">LinkedIn</span>
                             </a>
                         </li>
                         <li class="list-inline-item social-link">
-                            <a href="https://discord.com/channels/@me" target="_blank">
-                            <i class="fab fa-discord" aria-hidden="true"></i>
-                            <span class="sr-only">Discord</span>
+                            <a href="https://discord.com" target="_blank">
+                                <i class="fab fa-discord" aria-hidden="true"></i>
+                                <span class="sr-only">Discord</span>
                             </a>
                         </li>
                     </ul>
@@ -127,11 +121,17 @@
             </div>
         </div>
     </footer>
-<!------------------------- FOOTER END ----------------------->
-<!------------------------- Scripts Start--------------------->
+</div>
+<!--------------------------- FOOTER END ------------------------->
+<!--------------------------- Scripts Start------------------>
 <script src="assets/js/quiz.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 </body>
 </html>
