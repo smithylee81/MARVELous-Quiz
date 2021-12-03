@@ -124,14 +124,31 @@
 - ### Manual Testing of each section
 - #### Home Page/Navigation Bar: All page links were tested to ensure they take the user to the desired area on the page, the dropdown menu was also tested on smaller devices to ensure the user still had these options on their mobile/smaller device.
 
-        1. Testing the navigation bar to ensure this takes the user to the different areas on the page:
+- Testing the navigation bar to ensure this takes the user to the different areas of the site:
     
     - #### Home Page,    :
+
+![Quiz Page Display Issue](assets/images/QuizQ&ANoDisplaySmall.png "QuizQ&ANoDisplaySmall")
 
 
 ### Testing Site Responsiveness
 - #### Testing responsiveness was carried out using Dev.Tools on a variety of screen sizes as demonstrated below:
-
+    - ##### Home Page - Moto G4
+    ![Moto G4](assets/images/MarvelHomeMotoG4.png "MarvelHomeMotoG4")
+    - ##### Home Page - Pixel 2
+    ![Pixel 2](assets/images/MarvelHomePixel2.png "MarvelHomePixel2")
+    - ##### Home Page - iPhone 5/SE
+    ![iPhone 5/SE](assets/images/MarvelHomeiPhone5-SE.png "MarvelHomeiPhone5-SE")
+    - ##### Home Page - iPhone 6/7/8
+    ![iPhone 6/7/8](assets/images/MarvelHomeiPhone678.png "MarvelHomeiPhone678")
+    - ##### Home Page - iPhone 6/7/8 Plus
+    ![iPhone 6/7/8 Plus](assets/images/MarvelHomeiPhone678P.png "MarvelHomeiPhone678P")
+    - ##### Home Page - iPad
+    ![iPad](assets/images/MarvelHomeiPad.png "MarvelHomeiPad")
+    - ##### Home Page - Surface Duo
+    ![Surface Duo](assets/images/MarvelHomeSurfaceDuo.png "MarvelHomeSurfaceDuo")
+    - ##### Home Page - Nest Hub Max
+    ![Nest Hub Max](assets/images/MarvelHomeNestHubMax.png "MarvelHomeNestHubMax")
 
 ### Known/Solved Bugs
 - #### Hero Image (Marvel Logo) on Home Page not responsive with a breakpoint at 770px, anything below this point the window covers the image:
@@ -239,8 +256,10 @@ This was overcome by changing the section div from 'container-fluid' to 'contain
     - The JQuery Library utilised for JavaScript.
 7. [VSCode](https://code.visualstudio.com/)
     - VSCode proved a great platform for my workspace and worked well alongside GitHub/GitPod.
-8. Code Institute Mentor - Spencer Barriball, for continuous support and assistance. 
-9. Friend & Developer - Peter Singh, for continuous support, encouragement and his JavaScript knowledge.
+8. [Am I Responsive](http://ami.responsivedesign.is/)
+    - The Am I Responsive site for checking responsive display on a variety of screens.
+9. Code Institute Mentor - Spencer Barriball, for continuous support and assistance. 
+10. Friend & Developer - Peter Singh, for continuous support, encouragement and his JavaScript knowledge.
 
 ---
 ## Acknowledgements
