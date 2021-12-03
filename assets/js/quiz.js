@@ -74,7 +74,7 @@
  
          return window.location.assign('end.html');
      }
-     //Applied the prefix over postfix, explain this
+     
      ++questionCounter;
      progressText.innerText = `Question ${questionCounter} of ${MAX_QUESTIONS}`;
      progressBarFull.style.width = `${(questionCounter/MAX_QUESTIONS) * 100}%`;
@@ -115,11 +115,6 @@
  
          selectedChoice.parentElement.classList.add(classToApply);
  
-        //  setTimeout(() => {
-        //      selectedChoice.parentElement.classList.remove(classToApply);
-        //      getNewQuestion();
-        //  }, 1000);
-        // Made the response time shorter to make the questions snap quicker
         setTimeout(() => {
              selectedChoice.parentElement.classList.remove(classToApply);
              getNewQuestion();

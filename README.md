@@ -168,21 +168,37 @@ This was overcome by adding further css properties with a display: flex; align-i
 
 ![JS Undefined Variables](assets/images/JSUndefinedVariables.png "JSUndefinedVariables")
 
-This was overcome by adding 
+This was overcome by adding 'const' to the undefined properties highlighted and adding the semicolons. 
+
+- #### Once the variables had been defined the quiz page displayed the questions and answers/choices but would not display the 1st choice answer displaying 'undefined'. On review of the quiz.html file to assess any issues it was noted I'd mistyped writing 'number' instead of 'data-number':
+
+![Quiz HTML Typo](assets/images/JScript1stChoiceBug.png "JScript1stChoiceBug")
+
+![Quiz HTML Typo](assets/images/JScriptChoiceUndefinedBugHTML.png "JScriptChoiceUndefinedBugHTML")
+
+This was overcome by adding 'data-' to number in the html. 
 
 ---
 
-## Project Barriers & Solutions -*TBC*
+## Project Barriers & Solutions
 
-- ### 
-- ### 
+- ### Within the JavaScript there was an issue with the questions and answers displaying, in addition to the above solutions outlined within the 'Known/Solved Bugs' section, some of the JavaScript code required changing, specifically the following:
 
+"const choices = Array.from(document.querySelector('.choice-text'));" changed to "const choices = document.querySelectorAll('.choice-text');"
+
+Applied the prefix over postfix in "questionCounter++",changed to "++questionCounter". 
+
+- ### Once all JavaScript was addressed there remained an issue with the Question and Choices display where on a mobile these would not display:
+
+![Quiz Page Display Issue](assets/images/QuizQ&ANoDisplaySmall.png "QuizQ&ANoDisplaySmall")
+
+This was overcome by changing the section div from 'container-fluid' to 'container'.
 
 ---
 
 ## Version Control
 
-- ### GitHub and GitPod used throughout for project using git commands to push to GitHub repository.  
+- ### GitHub and GitPod used throughout for project using git commands to push to GitHub repository, VS Code platform used in later stages.
 
 ---
 
@@ -205,7 +221,6 @@ This was overcome by adding
 4. Open Git Bash
 5. Change the current working directory to the location where you want the cloned directory to be made.
 6. Type git clone, and then paste the URL you copied in Step 3.
-
 
 ---
 ## Credits
@@ -233,7 +248,7 @@ This was overcome by adding
 - ### My CI Mentor for continuous helpful support, guidance and feedback. 
 - ### The Code Institute Tutor Support Team for their advice and guidance.
 - ### Harry Dhillon for peer support, advice, guidance and encouragement. (https://github.com/Harry-Leepz)
-- ### The slack community for peer support and encouragement and tutorial YouTube videos which were very helpful: 
+- ### The slack community for peer support and encouragement and tutorial YouTube videos which were very helpful:
 
 - [YouTube Video - Milestone 2 Planning with Aukje van der Wal] (https://youtu.be/40vLxYUJiQY)
 - [YouTube Video from Brian Design: “How to Make a Quiz App using HTML CSS Javascript - Vanilla Javascript Project for Beginners Tutorial“] (https://www.youtube.com/watch?v=f4fB9Xg2JEY)

@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
-body{
+#end{
     background-color: #e40b0b;
     font-family: 'Bangers';
    }
@@ -59,4 +59,12 @@ input::placeholder{
 
 #saveScoreBtn {
     border: none;
-}}
+    cursor:grab;
+}
+
+.btn{
+    font-family: 'Bangers';
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+}
