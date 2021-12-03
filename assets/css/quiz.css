@@ -30,9 +30,12 @@ li {
     list-style-type: none;
     display: flex;
 }
+
 *, ::after, ::before {
     box-sizing: border-box;
 }
+
+
 /*----------------------------- H1 QUESTION -------------------------*/
 @media (min-width: 1200px) {
     #question {
@@ -128,7 +131,7 @@ li {
 
 /*----------------------------------- FOOTER -----------------------------*/
 footer {
-    position: absolute;
+    /*position: absolute;*/
     display: flex;
     align-items: center;
     justify-content: center;

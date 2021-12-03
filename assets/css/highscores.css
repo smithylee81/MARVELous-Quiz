@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
+/*---------------------- HIGHSCORED PAGE CSS ----------------------*/
 body {
-    color: #e40b0b;
+    background-color: #e40b0b;
     font-family: 'Bangers';
    }
+
 
    /*-------------------- NAVBAR / MAIN HEADING AND BODY -----------------*/
    /* Credit to Bootstrap for responsive nav bar*/
@@ -20,7 +22,7 @@ body {
        padding: 0.5rem 1rem;
        color: #0d6efd;
        text-decoration: none;
-       font-weight: 900;
+       font-weight:bold;
        font-family:'Bangers';
        letter-spacing: 2px;
        text-decoration: solid;
@@ -63,12 +65,10 @@ body {
 
    /*-------------------- FOOTER -----------------*/
 footer {
-position: absolute;
 display: flex;
 align-items: center;
 justify-content: center;
-
-}
+} 
 
 .list-inline {
    padding: 20px;

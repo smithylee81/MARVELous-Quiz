@@ -124,12 +124,6 @@
 - ### Manual Testing of each section
 - #### Home Page/Navigation Bar: All nav bar links were tested to ensure they take the user to the desired area on the site, the dropdown menu was also tested on smaller devices to ensure the user still had these options on their mobile/smaller device, these all worked well wth no issues.
 
-
-    - #### Quiz Page Display:
-
-![Quiz Page Display Issue](assets/images/QuizQ&ANoDisplaySmall.png "QuizQ&ANoDisplaySmall")
-
-
 ### Testing Site Responsiveness
 - #### Testing responsiveness was carried out using Dev.Tools on a variety of screen sizes as demonstrated below:
     - ##### Home Page - Moto G4
@@ -209,6 +203,8 @@ Applied the prefix over postfix in "questionCounter++",changed to "++questionCou
 ![Quiz Page Display Issue](assets/images/QuizQ&ANoDisplaySmall.png "QuizQ&ANoDisplaySmall")
 
 This was overcome by changing the section div from 'container-fluid' to 'container'.
+
+![Quiz Page Display Fix](assets/images/QuizQ&ADisplayFix.png "QuizQ&ANoDisplaySmall")
 
 ---
 
