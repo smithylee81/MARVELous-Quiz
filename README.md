@@ -186,6 +186,18 @@ This was overcome by adding 'const' to the undefined properties highlighted and 
 
 This was overcome by adding 'data-' to number in the html. 
 
+- #### On testing the End page, clicking the 'Play Again' button would open the 'quiz.js' file displaying the quiz javascript syntax:
+
+![End Page Issue](assets/images/EndPagePlayAgainIssue.png "EndPagePlayAgainIssue")
+
+On inspection of the 'href' attribute in the end page HTML it was noted that this was set to 'assets/js/quiz.js':
+
+![End Page href](assets/images/EndPagePlayAgainHTML.png "EndPagePlayAgainHTML")
+
+The 'href' was subsequently changed to 'quiz.html' to display the quiz page again for the user:
+
+![End Page Fix](assets/images/EndPagePlayAgainFIX.png "EndPagePlayAgainFIX")
+
 ---
 
 ## Project Barriers & Solutions
