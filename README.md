@@ -101,7 +101,7 @@
 
 - ### First Time Visitor Goals
 
-    - #### As a first-time visitor,I want to easily understand the main purpose of the site, easily navigate to the instructions, and take the quiz.
+    - #### As a first-time visitor, I want to easily understand the main purpose of the site, easily navigate to the instructions, and take the quiz.
         1. Upon entering the site, users are greeted with an easily readable and clean title and navigation bar to allow access to the page of their choice. Below this there is an image of the MARVEL logo, so the purpose of the site is clear.
         2. The user has options to hover over and click the page links to each section. The hover effect works well assisting the user in seeing which section they are selecting.
         3. As a first-time visitor, the user can select the High Scores page and see scores from previous players.
@@ -110,19 +110,19 @@
 
 - ### Returning Visitor Goals
 
-    - #### As a returning visitor,I want to check if there are anything new on the page, check the High Scores page to see if any of my friends have beaten my score and take the Quiz again if wished.
+    - #### As a returning visitor, I want to check if there are anything new on the page, check the High Scores page to see if any of my friends have beaten my score and take the Quiz again if wished.
         1. Upon re-entering the site the user has familiarity given the sites consistency and its ease of use helps them navigate to the desired sections.
         2. The user can assess whether anything has changed since their last viewing of the site and check the high scores page to see if anyone has beaten their score.
         3. The user can navigate between the pages using the Nav Bar at the top of each page and also select the social media icons on each page via the footer if they wish to view the Developers’ platforms.
 
 - ### Frequent User Goals
-    - #### As a frequent visitor,I want to be able to see any new changes and challenge myself on my Marvel knowledge.
+    - #### As a frequent visitor, I want to be able to see any new changes and challenge myself on my Marvel knowledge.
         1. The user would already be comfortable with the website layout and can easily navigate between the pages.
 
 ## Further Testing
 
 - ### Manual Testing of each section
-- #### Home Page/Navigation Bar: All nav bar links were tested to ensure they take the user to the desired area on the site, the dropdown menu was also tested on smaller devices to ensure the user still had these options on their mobile/smaller device, these all worked well wth no issues.
+- #### Home Page/Navigation Bar: All nav bar links were tested to ensure they take the user to the desired area on the site, the dropdown menu was also tested on smaller devices to ensure the user still had these options on their mobile/smaller device, these all worked well with no issues.
 
 ### Testing Site Responsiveness
 - #### Testing responsiveness was carried out using Dev.Tools on a variety of screen sizes as demonstrated below:
@@ -147,7 +147,7 @@
 - #### Hero Image (Marvel Logo) on Home Page not responsive with a breakpoint at 770px, anything below this point the window covers the image:
 ![Hero Image Break](assets/images/MarvelLogoBreakBelow770px.png "MarvelLogoBreakBelow770px")
 
-This was overcome by adding further css properties with a margin: auto; display: flex; align-items: center; justify-content: center; as per the final Home Page display. 
+This was overcome by adding further CSS properties with a margin: auto; display: flex; align-items: center; justify-content: center; as per the final Home Page display. 
 
 
 
@@ -155,15 +155,15 @@ This was overcome by adding further css properties with a margin: auto; display:
 ![Instructions Breakpoint](assets/images/InstructBreakAbove922px.png "InstructBreakAbove922px")
 ![Instructions Breakpoint](assets/images/InstructBreakBelow374px.png "InstructBreakBelow374px")
 
-This was overcome by adding further css properties with a margin: auto; and removing the height: 10em; property as per the final Home Page display.
+This was overcome by adding further CSS properties with a margin: auto; and removing the height: 10em; property as per the final Home Page display.
 
-- #### The Quiz page Marvel Images had were larger on large screens with a margin to the right showing empty space, on smaller screens these would display to the left and where considerably smaller:
+- #### The Quiz page Marvel Images were larger on large screens but with a margin to the right showing empty space, on smaller screens these would display to the left and where considerably smaller:
 ![Marvel Images Desktop Break Breakpoint](assets/images/MarvelImgDisplayBugDeskT.png "MarvelImgDisplayBugDeskT")
 ![Marvel Images Desktop Break Breakpoint](assets/images/MarvelImgDisplayBugiPad.png "IMarvelImgDisplayBugiPad")
 
-This was overcome by adding further css properties with a display: flex; align-items: center; justify-content: center; and a margin left and right of 0.5rem, as per the final Quiz Page display.
+This was overcome by adding further CSS properties with a display: flex; align-items: center; justify-content: center; and a margin left and right of 0.5rem, as per the final Quiz Page display.
 
-- #### The initial JavaScript code wouldn't display any questions or choices.After running the quiz.js file through 'JS Hint', this showed that there were some warnings (mainly in connection with ES6 version), missing semicolons and there were some 'undefined variables':
+- #### The initial JavaScript code wouldn't display any questions or choices. After running the quiz.js file through 'JS Hint', this showed that there were some warnings (mainly in connection with ES6 version), missing semicolons and there were some 'undefined variables':
 
 - ##### 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
 - ##### 'let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
@@ -196,7 +196,7 @@ This was overcome by adding 'data-' to number in the html.
 
 "const choices = Array.from(document.querySelector('.choice-text'));" changed to "const choices = document.querySelectorAll('.choice-text');"
 
-Applied the prefix over postfix in "questionCounter++",changed to "++questionCounter". 
+Applied the prefix over postfix in "questionCounter++", changed to "++questionCounter". 
 
 - ### Once all JavaScript was addressed there remained an issue with the Question and Choices display where on a mobile these would not display:
 
@@ -254,14 +254,14 @@ This was overcome by changing the section div from 'container-fluid' to 'contain
 8. [Am I Responsive](http://ami.responsivedesign.is/)
     - The Am I Responsive site for checking responsive display on a variety of screens.
 9. Code Institute Mentor - Spencer Barriball, for continuous support and assistance. 
-10. Friend & Developer - Peter Singh, for continuous support, encouragement and his JavaScript knowledge.
+10. Friend & Developer - Peter Singh, for continuous support, encouragement, and his JavaScript knowledge.
 
 ---
 ## Acknowledgements
 
-- ### My CI Mentor for continuous helpful support, guidance and feedback. 
+- ### My CI Mentor for continuous helpful support, guidance, and feedback. 
 - ### The Code Institute Tutor Support Team for their advice and guidance.
-- ### Harry Dhillon for peer support, advice, guidance and encouragement. (https://github.com/Harry-Leepz)
+- ### Harry Dhillon for peer support, advice, guidance, and encouragement. (https://github.com/Harry-Leepz)
 - ### The slack community for peer support and encouragement and tutorial YouTube videos which were very helpful:
 
 - [YouTube Video - Milestone 2 Planning with Aukje van der Wal] (https://youtu.be/40vLxYUJiQY)
