@@ -1,14 +1,9 @@
 /*--------------------- END PAGE CSS -----------------*/
-
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
-
 body {
     background-color: #e40b0b;
-  }
-
-
+}
 /*--------------------- END FORM CONTAINER -------------*/
-
 .end-form-container {
     width: 100%;
     display: flex;
@@ -18,16 +13,13 @@ body {
     background-color: #e40b0b;
     margin: auto;
 }
-
-#end{
+#end {
     background-color: #e40b0b;
-    font-family: 'Bangers';
+    font-family: 'Bangers', serif;
     height: 100%;
-    text-shadow: #273e47 ;
-
-   }
-
-.end-form-container{
+    text-shadow: #273e47;
+}
+.end-form-container {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -35,129 +27,104 @@ body {
     max-width: 30rem;
     background-color: #e40b0b;
 }
-
-input{
+input {
     margin-bottom: 1rem;
     width: 20rem;
     padding: 1.5rem;
     font-size: 1.8rem;
     border: none;
-    box-shadow: 0 0.4rem 1.4rem #273e47 ;
+    box-shadow: 0 0.4rem 1.4rem #273e47;
 }
-
-input::-webkit-input-placeholder{
+input::-webkit-input-placeholder {
     color: #aaa;
 }
-
-input::-moz-placeholder{
+input::-moz-placeholder {
     color: #aaa;
 }
-
-input:-ms-input-placeholder{
+input:-ms-input-placeholder {
     color: #aaa;
 }
-
-input::-ms-input-placeholder{
+input::-ms-input-placeholder {
     color: #aaa;
 }
-
-input::placeholder{
+input::placeholder {
     color: #aaa;
 }
-
 #username {
     margin-bottom: 3rem;
     width: 100%;
     outline: none;
     color: black;
 }
-
-#end-text{
+#end-text {
     font-size: 2.4rem;
     color: #aaa;
     text-align: center;
     text-shadow: #273e47;
 }
-
 #saveScoreBtn {
     border: none;
-    cursor:grab;
+    cursor: grab;
 }
-
-.btn{
-    font-family: 'Bangers';
+.btn {
+    font-family: 'Bangers', serif;
     font-size: 1.5rem;
     text-align: center;
     padding: 1rem;
 }
-
 /*-------------------- DIVIDERS --------------*/
-
-.divider{
+.divider {
     color: #cccccc;
     width: 100%;
     height: 2px;
-    border-radius: 10px;
     border: solid;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px ;
-    border-bottom-left-radius: 10px ;
-    border-bottom-right-radius: 10px;
-   }
-
-
-  /*-------------------- FOOTER -----------------*/
-  footer {
+    border-radius: 10px;
+}
+/*-------------------- FOOTER -----------------*/
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
-} 
-    
-    .list-inline {
-       padding: 20px;
-       list-style: none;
-       font-size: 2rem;
-       justify-content: center;
-       align-items: center;
-       display: flex;
+}
+.list-inline {
+    padding: 20px;
+    list-style: none;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+i {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 0.5rem;
+}
+.copyright {
+    font-family: 'Bangers', serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+/*--------------------- MEDIA QUERIES ------------------*/
+@media screen and (max-width: 320px) {
+    .social-links i {
+        width: 100%;
+        vertical-align: center;
+        display: flex;
     }
-    
-    i{
-       align-items: center;
-       justify-content:center;
-       display: flex;
-       padding: 0.5rem;
+}
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+        display: flex;
     }
-    
-    .copyright{
-       font-family: 'Bangers';
-       align-items: center;
-       justify-content:center;
-       display: flex;
-    }
-    
-    
-       /*--------------------- MEDIA QUERIES ------------------*/
-    
-    @media screen and (max-width:320px) {
-       .social-links i{
-       width: 100%;
-       vertical-align: center;
-       display: flex;
-       }
-    
-    @media screen and (max-width: 768px){
-       .choice-container{
-               min-width: 40rem;
-               display: flex;
-           }
-       }
-    
-       @media (min-width: 576px)
+}
+@media (min-width: 576px) {
     .text-sm-center {
-       text-align: center!important;
+        text-align: center !important;
     }
-    @media (min-width: 576px)
     .flex-sm-fill {
-       flex: 1 1 auto!important;
+        flex: 1 1 auto !important;
     }
+}
