@@ -48,17 +48,16 @@ li {
 }
 #finalScore {
     font-family: 'Bangers', serif;
-    font-size: 4rem;;
+    font-size: 3.5rem;;
     color: #cccccc;
     text-shadow: 4px 4px #273e47;
     text-align: center;
     letter-spacing: 2px;
-    /*top: 0.5em;*/
-    /*left: 0;*/
     justify-content: center;
     align-items: center;
-    margin: 0;
+    margin-right: 2rem;
 }
+
 #highScoresList {
     font-family: 'Bangers', serif;
     font-size: 1.5rem;
@@ -69,6 +68,7 @@ li {
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 3rem;
 }
 /*-------------------- FOOTER -----------------*/
 footer {
@@ -92,7 +92,7 @@ i {
 }
 .copyright {
     font-family: 'Bangers', serif;
-    display: flex;
+    
 }
 /*--------------------- MEDIA QUERIES ------------------*/
 @media screen and (max-width: 768px) {
@@ -100,12 +100,19 @@ i {
         min-width: 40rem;
         display: flex;
     }
+    
 }
 @media screen and (max-width: 320px) {
     .social-links i {
         width: 100%;
         vertical-align: center;
         display: flex;
+    }
+    #finalScore{
+        font-size: 3rem ;
+    }
+    .copyright{
+        justify-content: center;
     }
 }
 @media (min-width: 576px) {

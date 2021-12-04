@@ -149,8 +149,6 @@
 
 This was overcome by adding further CSS properties with a margin: auto; display: flex; align-items: center; justify-content: center; as per the final Home Page display. 
 
-
-
 - #### The Instructions area also had a breakpoint on larger screens where it would display to the left of the screen above 922px and on smaller screens the content would spill over into other screen areas on screens below 374px:
 ![Instructions Breakpoint](assets/images/InstructBreakAbove922px.png "InstructBreakAbove922px")
 ![Instructions Breakpoint](assets/images/InstructBreakBelow374px.png "InstructBreakBelow374px")
@@ -205,6 +203,12 @@ Applied the prefix over postfix in "questionCounter++", changed to "++questionCo
 This was overcome by changing the section div from 'container-fluid' to 'container'.
 
 ![Quiz Page Display Fix](assets/images/QuizQ&ADisplayFix.png "QuizQ&ANoDisplaySmall")
+
+- #### After the container on the Quiz page was changed, although questions and choices were now displaying there remained an overspill of the question boxes on smaller devices as displayed in the above images. 
+
+This was overcome by adding additional CSS and updating media queries to allow better viewing and display the progress bar in the middle of the screen, with the final result as follows: 
+
+![Quiz Display Fix](assets/images/QuizOverspillSmallDeviceFIX.png "QuizOverspillSmallDeviceFIX")
 
 ---
 

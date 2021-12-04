@@ -92,6 +92,10 @@ body {
     text-align: center;
     padding: 1rem;
 }
+
+#play-btn, #highscores-btn{
+    color: gold;
+}
 /*--------------------- SAVE BUTTON ---------------------*/
 .btn[diabled]:hover {
     cursor: not-allowed;

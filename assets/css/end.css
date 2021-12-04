@@ -3,6 +3,28 @@
 body {
     background-color: #e40b0b;
 }
+
+/*-------------------- NAV BAR --------------------*/
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #0d6efd;
+    font-weight: 900;
+    background-color: #cccccc;
+    font-family: 'Bangers', serif;
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #0d6efd;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Bangers', serif;
+    letter-spacing: 2px;
+    text-decoration: solid;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+
 /*--------------------- END FORM CONTAINER -------------*/
 .end-form-container {
     width: 100%;
@@ -18,6 +40,7 @@ body {
     font-family: 'Bangers', serif;
     height: 100%;
     text-shadow: #273e47;
+    color: gold;
 }
 .end-form-container {
     width: 100%;
@@ -71,6 +94,7 @@ input::placeholder {
     font-size: 1.5rem;
     text-align: center;
     padding: 1rem;
+    color: gold;
 }
 /*-------------------- DIVIDERS --------------*/
 .divider {

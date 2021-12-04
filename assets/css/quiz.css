@@ -122,20 +122,12 @@ li {
 }
 /*----------------------------------- FOOTER -----------------------------*/
 footer {
-    /*position: absolute;*/
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: -30px;
 }
-/*.list-inline {
-   padding: 20px;
-   list-style: none;
-   font-size: 2rem;
-   justify-content: center;
-   align-items: center;
-   display: flex;
-} */
+
 .list-inline {
     padding-left: 0;
     list-style: none;
@@ -201,8 +193,6 @@ li {
     text-shadow: 4px 4px #273e47;
     text-align: center;
     letter-spacing: 2px;
-    /*top: 0.5em;*/
-    /*left: 0;*/
     justify-content: center;
     align-items: center;
     margin: 0;
@@ -240,7 +230,7 @@ i {
 }
 .copyright {
     font-family: 'Bangers', serif;
-    display: flex;
+    justify-content: center;
 }
 /*--------------------- MEDIA QUERIES ------------------*/
 @media screen and (max-width: 320px) {
