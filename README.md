@@ -239,7 +239,7 @@ This was overcome by adding additional CSS and updating media queries to allow b
 3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
-6. Scroll back down through the page to locate the now published site [https://smithylee81.github.io/MARVELous-Quiz/](https://github.com) in the "GitHub Pages" section.
+6. Scroll back down through the page to locate the now published site [https://smithylee81.github.io/MARVELous-Quiz/](https://smithylee81.github.io/MARVELous-Quiz/) in the "GitHub Pages" section.
 
 ### Making a Local Clone
 
