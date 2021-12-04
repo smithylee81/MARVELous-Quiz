@@ -4,6 +4,7 @@
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #0d6efd;
     font-weight: 900;
+    font-size: 1.5rem;
     background-color: #cccccc;
     font-family: 'Bangers', serif;
 }
@@ -14,6 +15,7 @@
     text-decoration: none;
     font-weight: 900;
     font-family: 'Bangers', serif;
+    font-size: 1.5rem;
     letter-spacing: 2px;
     text-decoration: solid;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
